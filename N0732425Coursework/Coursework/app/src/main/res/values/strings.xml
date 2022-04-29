@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Coursework</string>
+    <string name="Open">Coursework</string>
+    <string name="Close">Coursework</string>
+    <string-array name="mainscreen">
+        <item>Quick</item>
+        <item>Simple</item>
+        <item>Efficient</item>
+        <item>Helpful</item>
+        <item>Straightforward</item>
+        <item>Trouble-free</item>
+        <item>Effortless</item>
+        <item>Secure</item>
+        <item>Undemanding</item>
+        <item>Safe</item>
+    </string-array>
+
+    <string-array name="create">
+        <item>CREATE</item>
+        <item>AN</item>
+        <item>ACCOUNT</item>
+    </string-array>
+
+    <string-array name="sign">
+        <item>SIGN</item>
+        <item>INTO</item>
+        <item>YOUR</item>
+        <item>ACCOUNT</item>
+    </string-array>
+
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string-array name="items">
+        <item>Select item</item>
+        <item>Transport</item>
+        <item>Food</item>
+        <item>House</item>
+        <item>Entertainment</item>
+        <item>Education</item>
+        <item>Charity</item>
+        <item>Personal</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="items2">
+        <item>Pounds</item>
+        <item>Percentage</item>
+    </string-array>
+
+    <string-array name="items3">
+    <item>Select item</item>
+    <item>Job</item>
+    <item>Property</item>
+    <item>Betting</item>
+    <item>Trading</item>
+    <item>Other</item>
+    </string-array>
+
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+</resources>

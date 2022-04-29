@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:elevation="10dp"
+    app:cardElevation="10dp"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/colours">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/colours">
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linearlayout">
+
+            <TextView
+                android:id="@+id/item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#232F34"
+                android:fontFamily="sans-serif"
+                android:text="item"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#232F34"
+                android:fontFamily="sans-serif"
+                android:text="£0"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#232F34"
+                android:fontFamily="sans-serif"
+                android:text="note"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#232F34"
+                android:fontFamily="sans-serif"
+                android:text="date"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="normal">
+
+            </TextView>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageV"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@id/linearlayout"
+            android:src="@drawable/ic_baseline_house_24"></ImageView>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
